@@ -1,38 +1,23 @@
-# Binaries for programs and plugins
+# Go 빌드 산출물
+bin/
+pkg/
 *.exe
 *.exe~
 *.dll
 *.so
 *.dylib
 
-# Test binary, built with `go test -c`
+# 테스트 바이너리
 *.test
 
-# Output of the go coverage tool, specifically when used with LiteIDE
-*.out
+# Go 모듈 캐시
+/pkg/
+/bin/
 
-# Dependency directories (remove the comment below if you use Go modules)
-vendor/
-
-# Go workspace files
-go.work
-go.work.sum
-
-# IDE/editor files
+# IDE 설정 파일
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# Mac OS specific
+# OS별 파일
 .DS_Store
-
-# Go build cache
-*.o
-*.a
-
-# Go module cache (optional — 보통 GOPATH/pkg/mod는 로컬에만)
-pkg/
-
-# Temporary files
-tmp/
+Thumbs.db
