@@ -19,4 +19,10 @@ func main() {
 	fmt.Println("=== Const2 ===")
 	Const2()
 
+	fmt.Println("=== Enumeration1 ===")
+	Enumeration1()
+
+	fmt.Println("=== Enumeration2 ===")
+	Enumeration2()
+
 }
