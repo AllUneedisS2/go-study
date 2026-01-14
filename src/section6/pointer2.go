@@ -11,5 +11,15 @@ func main() {
 	fmt.Println("&i :", &i)
 	fmt.Println("p :", p)
 	fmt.Println("*p :", *p)
+	fmt.Println()
+
+	*p++
+
+	fmt.Println("i :", i)
+	fmt.Println("&i :", &i)
+	fmt.Println("p :", p)
+	fmt.Println("*p :", *p)
+
+	
 
 }
